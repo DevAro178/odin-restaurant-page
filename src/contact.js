@@ -1,7 +1,7 @@
 import bee from './assets/bee.svg'
 
 let root=document.querySelector('#content');
-export default function home(){
+export default function menu(){
 // Heading Container
     let headingContainer=document.createElement('div');
     headingContainer.classList.add('heading-container');
@@ -22,7 +22,7 @@ export default function home(){
     heading.classList.add('heading');
     
     let h1=document.createElement('h1');
-    h1.textContent="Beary's Breakfast Bar";
+    h1.textContent="Contact";
     heading.appendChild(h1);
     headingContainer.appendChild(heading);
     
@@ -37,11 +37,11 @@ export default function home(){
 
     let p_review=document.createElement('p');
     p_review.classList.add('review');
-    p_review.textContent="Beary's has the best porridge! The atmosphere and customer service make you feel like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of place that I like to return to again and again."
+    p_review.textContent="Contact Us via Email"
 
     let p_customer=document.createElement('p');
     p_customer.classList.add('customer');
-    p_customer.textContent="Goldilocks";
+    p_customer.textContent="lorem";
 
     combInner.append(p_review,p_customer);
     reviewOuter.appendChild(combInner);
