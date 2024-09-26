@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant Page</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div id="coverhome" class="cover">
+                    Home
+                    <img class="dripping" src="./assets/dripping.png" alt="">
+                </div>
+
+                <div id="covermenu" class="cover hidden">
+                    Menu
+                    <img class="dripping" src="./assets/dripping.png" alt="">
+                </div>
+
+                <div id="covercontact" class="cover hidden">
+                    Contact
+                    <img class="dripping" src="./assets/dripping.png" alt="">
+                </div>
+            </nav>
+        </header>
+        <div id="content" class="content"></div>
+        <!-- <div id="content" class="content">
+            <div class="heading-container"><img class="decorations bee-left" src="./assets/bee.svg"><img
+                    class="decorations bee-right" src="./assets/bee.svg">
+                <div class="heading">
+                    <h1>Beary's Breakfast Bar</h1>
+                </div>
+            </div>
+            <div class="comb-outer review-outer">
+                <div class="comb-inner review-inner">
+                    <p class="review">Beary's has the best porridge! The atmosphere and customer service make you feel
+                        like you are sitting in the middle of the woods, eating like a bear! This is exactly the kind of
+                        place that I like to return to again and again.</p>
+                    <p class="customer">Goldilocks</p>
+                </div>
+            </div>
+            <div class="comb-outer info-hours-outer">
+                <div class="comb-inner info-hours-inner">
+                    <h3 class="hours">Hours</h3>
+                    <p class="sunday">Sunday: 8am - 8pm</p>
+                    <p class="monday">Monday: 6am - 6pm</p>
+                    <p class="tuesday">Tuesday: 6am - 6pm</p>
+                    <p class="wednesday">Wednesday: 6am - 6pm</p>
+                    <p class="thursday">Thursday: 6am - 10pm</p>
+                    <p class="friday">Friday: 6am - 10pm</p>
+                    <p class="saturday">Saturday: 8am - 10pm</p>
+                </div>
+            </div>
+            <div class="comb-outer info-location-outer">
+                <div class="comb-inner info-location-inner">
+                    <h3 class="location">Location</h3>
+                    <p class="address">123 Forest Drive, Forestville, Maine</p>
+                </div>
+            </div><img class="decorations hive" src="./assets/honeycomb.svg">
+        </div> -->
+
+
+
+
+
+
+        <!-- <div id="content" class="content">
+            <div class="heading-container menu-container"><img class="decorations menu-bee-left"
+                    src="./assets/bee.svg"><img class="decorations menu-bee-right" src="./assets/bee.svg">
+                <div class="heading menu-heading">
+                    <h1>Menu</h1>
+                </div>
+            </div>
+            <div class="heading-container sub-container">
+                <div class="heading sub-heading">
+                    <h2>Beverages</h2>
+                </div><img class="decorations sub-container-hive" src="./assets/honeycomb.svg">
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Honey Tea</h3>
+                    <p class="item-description">A warm, sweet tea made with the highest quality honey and a bit of lemon
+                        to start your day off right!</p>
+                    <p class="item-price">$2</p>
+                    <div title="Picture of honey tea." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Beary Tea</h3>
+                    <p class="item-description">A comforting, almost filling, tea that is infused with the flavors of
+                        several kinds of berries. Best served cold, but can be served hot on request.</p>
+                    <p class="item-price">$3</p>
+                    <div title="Picture of beary tea." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="heading-container sub-container">
+                <div class="heading sub-heading">
+                    <h2>Sides</h2>
+                </div><img class="decorations sub-container-hive" src="./assets/honeycomb.svg">
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Toast and Jam</h3>
+                    <p class="item-description">A slice of toast, your choice of bread, and our homemade blackberry or
+                        raspberry jam.</p>
+                    <p class="item-price">$1</p>
+                    <div title="Picture of toast and jam." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Fresh Fruit</h3>
+                    <p class="item-description">A small bowl of fresh fruit, whatever we find at the market for the day.
+                    </p>
+                    <p class="item-price">$3</p>
+                    <div title="Picture of a bowl of fruit." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="heading-container sub-container">
+                <div class="heading sub-heading">
+                    <h2>Main Dishes</h2>
+                </div><img class="decorations sub-container-hive" src="./assets/honeycomb.svg">
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Pancakes</h3>
+                    <p class="item-description">A stack of homemade buttermilk pancakes, served with our locally sourced
+                        maple syrup.</p>
+                    <p class="item-price">$4</p>
+                    <div title="Picture of pancakes." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">French Toast</h3>
+                    <p class="item-description">Two slices of the best french toast you will ever eat, served with our
+                        locally sourced maple syrup.</p>
+                    <p class="item-price">$5</p>
+                    <div title="Picture of french toast." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Beary Veggie Sandwich</h3>
+                    <p class="item-description">Do you like vegetables? Then this is the sandwich for you! Stuffed full
+                        of a variety of fresh produce, it will fill you up.</p>
+                    <p class="item-price">$8</p>
+                    <div title="Picture of veggie sandwich." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">BLT</h3>
+                    <p class="item-description">Interested in the Beary Veggie Sandwich but also love bacon? Say no
+                        more.</p>
+                    <p class="item-price">$6</p>
+                    <div title="Picture of a BLT." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Bagel and Lox</h3>
+                    <p class="item-description">Our house specialty, you can't go wrong with a hearty bagel topped with
+                        sustainably harvested salmon.</p>
+                    <p class="item-price">$8</p>
+                    <div title="Picture of bagel and lox." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Honeycomb</h3>
+                    <p class="item-description">Are you a bear like us? Then you will love our honeycomb. And, yes
+                        humans, it is just a piece of honeycomb, not the popular breakfast cereal.</p>
+                    <p class="item-price">$6</p>
+                    <div title="Picture of honeycomb." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">Beary Bowl</h3>
+                    <p class="item-description">Get a big ole bowl of our berries! Side of honey is $1 extra.</p>
+                    <p class="item-price">$7</p>
+                    <div title="Picture of a berry bowl." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer menu-outer">
+                <div class="comb-inner menu-inner">
+                    <h3 class="item-name">The Beary Best Porridge</h3>
+                    <p class="item-description">Made by Baby Bear himself, this porridge is guarenteed to be just right,
+                        or your money back.</p>
+                    <p class="item-price">$5</p>
+                    <div title="Picture of porridge." class="item-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
+        <!-- <div id="content" class="content">
+            <div class="heading-container contact-container"><img class="decorations contact-bee-left"
+                    src="./assets/bee.svg"><img class="decorations contact-bee-right" src="./assets/bee.svg">
+                <div class="heading contact-heading">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+            <div class="comb-outer contact-outer">
+                <div class="comb-inner contact-inner">
+                    <h3 class="person">Mama Bear</h3>
+                    <p class="position">Chef</p>
+                    <p class="phone">555-555-5554</p>
+                    <p class="email">totallyRealEmail@notFake.com</p>
+                    <div title="Mama Bear's Photo" class="contact-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer contact-outer">
+                <div class="comb-inner contact-inner">
+                    <h3 class="person">Papa Bear</h3>
+                    <p class="position">Manager</p>
+                    <p class="phone">555-555-5555</p>
+                    <p class="email">perfectlyRealEmail@notFake.com</p>
+                    <div title="Papa Bear's Photo" class="contact-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+            <div class="comb-outer contact-outer">
+                <div class="comb-inner contact-inner">
+                    <h3 class="person">Baby Bear</h3>
+                    <p class="position">Waiter</p>
+                    <p class="phone">555-555-5556</p>
+                    <p class="email">totallyRealEmail@notFake.com</p>
+                    <div title="Baby Bear's Photo" class="contact-pic" style="background-image: url();">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </body>
+
+</html>
